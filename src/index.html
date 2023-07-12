@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="@@ENDERECO_DO_CSS">
+    <title>GRUNT</title>
+</head>
+<body>
+    <main>
+        <h1>Mega Sena</h1>
+        <form id="form-sorteador">
+            <div>
+                <label for="quantidade">Quantide de números gerados:</label>
+                <input type="number" id="quantidade" required min="6" value="6" step="1">
+            </div>
+            <button type="submit">Gerar numeros:</button>
+        </form>
+        <div class="resultado">
+            Os números gerados foram: <span id="resultado-valor"></span>
+        </div>
+    </main>
+    <script src="@@ENDERECO_DO_JS"></script>
+</body>
+</html>

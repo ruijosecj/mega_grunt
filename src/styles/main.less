@@ -1,0 +1,51 @@
+@corDoTexto: #fff;
+@corDoBotao: #f7b731;
+@botaoTexto: #000;
+
+body{
+    background-color: #eb3b5a;
+    color: @corDoTexto;
+}
+
+main{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 2em;
+    text-align: center;
+}
+
+button{
+    padding: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-top: 16px;
+    border-radius: 8px;
+    background-color: @corDoBotao;
+    color: @botaoTexto;
+}
+
+input{
+    display: block;
+    margin: 16px auto 0;
+    font-size: 2em;
+    max-width: 120px;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    color: @corDoTexto;
+    border-bottom: 6px solid @corDoTexto;
+}
+
+.resultado{
+    padding: 16px;
+    margin-top: 120px;
+    border: 8px dotted @corDoTexto;
+
+    span{
+        font-weight: bold;
+        font-size: 1.5em;
+        display: block;
+    }
+}
